@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 35px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    margin-right: 29px;
+    color: #17233D;
+}
+
+button{
+    height: 51px;
+    width: 124px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    background: #6FBF44;
+    cursor: pointer;
+}
+
+main{
+    padding-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section > h1{
+    width: 582px;
+    margin-bottom: 47px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.5;
+    color: #161A49;
+}
+
+section > p{
+    width: 493px;
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5;
+    color: #4B505A;
+}
+
+section > a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+}
